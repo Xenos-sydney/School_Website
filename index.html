@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Signup.html">
+  <link rel="shortcut icon" type="image/png" href="C:\Users\USER\Downloads\ChatGPT Image Apr 6, 2025, 10_30_58 AM.png" >
+  <title>AIM Version 2.0</title>
+   
+  
+</head>
+<body>
+    <div class="main">
+      <div class="frame">
+       <div class="container">
+         <center><img src="C:\Users\USER\Pictures\Screenshot_5-4-2025_105023_apps.knust.edu.gh.jpeg" alt=""></center>
+          <h3 class="Red">   Academic Information Manager  </h3>
+          <p> You can also access the Student Portal on your mobile phone. </p><br><br><br>
+           <a href="https://aim.knust.edu.gh/">Download app</a><br><br><br>
+       </div>
+             
+       <div class="form-login">
+          <center><img src="C:\Users\USER\Downloads\ChatGPT Image Apr 6, 2025, 10_30_58 AM.png" alt="" width="80vw" height="80vw"></center>
+          <h2 class="Logintext"> <center>Login</center></h2>
+          <form onsubmit="return loginUser()" id="loginUser">
+            <label>Username</label>
+            <input type="text" id="username" placeholder="Xenos" required><br>
+            <label>Password</label>
+            <input type="password" id="password" placeholder="Venom" required><br>
+            <label>Student Id</label>
+            <input type="number" id="studentId" placeholder="219283" min="0" max="999999" required><br>
+            <button type="submit">Login</button>
+            
+            </form>
+       
+          <script>
+            function loginUser() {
+              const username = document.getElementById("username").value;
+              const password = document.getElementById("password").value;
+              const studentId = document.getElementById("studentId").value;
+          
+              if (username === "Admin" && password === "4321" && studentId === "098765") {
+                window.location.href = "Home.html";
+              } else {
+                alert("Invalid Credentials Detected!!!");
+              }
+          
+              return false;
+            }
+          </script>
+          
+          <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+          
+          </div>
+                <label for="select">  
+      <input type="checkbox">  Remember me
+      </label>
+       </div>
+        
+      </div>
+         
+       
+       <div class="Copyright"> Copyright © 2025 Kwame Nkrumah University Of Science and Technology by Ryan Walker </div> <br>
+ 
+</body>
+</html>
